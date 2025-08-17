@@ -1,4 +1,4 @@
-# Django CRM Project
+# Django CRM 
 A simple **Customer Relationship Management (CRM)** application built with Django.  
 This project demonstrates core Django features such as routing, templates, views, and **CRUD operations** (Create, Read, Update, Delete) for managing records.
 
