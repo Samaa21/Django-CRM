@@ -40,7 +40,7 @@ cd Django-CRM
 ### 2.Create and activate a virtual environment
 python -m venv virt
 # Windows
-virt\Scripts\activate
+source virt\Scripts\activate
 # macOS/Linux
 source virt/bin/activate
 
