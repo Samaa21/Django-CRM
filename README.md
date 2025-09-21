@@ -33,22 +33,28 @@ This project demonstrates core Django features such as routing, templates, views
 ## Installation
 
 ### 1. Clone the repository
-```bash
+```bash Command
+
 git clone https://github.com/Samaa21/Django-CRM.git
-cd Django-CRM
 
 ### 2.Create and activate a virtual environment
 python -m venv virt
-# Windows
+
+# Windows GitBash
 source virt\Scripts\activate
-# macOS/Linux
-source virt/bin/activate
 
 ### 3.Install dependencies
 pip install django mysql-connector-python
+
+## For SQl Server
+pip install mysqlclient
 
 ### 4.Apply migrations:
 python manage.py migrate
 
 ### 5.Running the Server
 python manage.py runserver
+
+### Go to server
+http://localhost:8000
+
